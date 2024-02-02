@@ -267,3 +267,10 @@ inmobi.com, fe4db13744124582a6a2b18964560ce7, RESELLER, 83e75a7ae333ca9d
 smartadserver.com, 4395, RESELLER, 060d053dcf45cbf3
 sharethrough.com, OAW69Fon, RESELLER, d53b998a7bd4ecd2
 contextweb.com, 563114, RESELLER, 89ff185a4c4e857c
+openx.com, 559912325, reseller, 6a698e2ec38604c6
+ignitemediatech.com, pub_11119, reseller
+admixer.co.kr, 2035, reseller
+admixer.co.kr, 2041, reseller
+pubmatic.com, 161748, reseller, 5d62403b186f2ace
+triplelift.com, 14127, reseller, 6c33edb13117fd86
+triplelift.com, 14127-eb, reseller, 6c33edb13117fd86
