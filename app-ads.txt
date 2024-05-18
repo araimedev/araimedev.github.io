@@ -309,3 +309,6 @@ pubmatic.com, 164532, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 26292, RESELLER, 0bfd66d529a55807
 video.unrulymedia.com, 169764768, RESELLER
 xandr.com, 15840, RESELLER
+playdigo.com, 1965, RESELLER, 92011346d63d3c30
+rubiconproject.com, 25872, RESELLER, 0bfd66d529a55807
+lijit.com, 489963, RESELLER, fafdf38b16bf6b2b
