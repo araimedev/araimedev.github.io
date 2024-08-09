@@ -381,3 +381,4 @@ lijit.com, 491737, RESELLER, fafdf38b16bf6b2b
 connekt.ai, 1732945743, RESELLER
 mars.media, 1010442, RESELLER, 8624339f102fb076
 video.unrulymedia.com, 1058378980, RESELLER
+pubwise.io, 22376824, RESELLER, c327c91a93a7cdd3
