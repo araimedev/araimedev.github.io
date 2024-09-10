@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        .input-group, .output-group {
+            margin-bottom: 20px;
+        }
+        .input-group label, .output-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .btn-group {
+            text-align: center;
+        }
+        .number-input {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Number Generator</h1>
+        <div class="number-input">
+            <label for="numberStart">Masukkan Angka Awal:</label>
+            <input type="number" id="numberStart" min="1" max="1000" value="1">
+        </div>
+        <div class="number-input">
+            <label for="numberEnd">Masukkan Angka Akhir:</label>
+            <input type="number" id="numberEnd" min="1" max="1000" value="10">
+        </div>
+        <div class="input-group">
+            <label for="inputText">Masukkan Teks:</label>
+            <textarea id="inputText" placeholder="Masukkan teks di sini..."></textarea>
+        </div>
+        <button onclick="generateOutput()">Hasilkan Teks</button>
+        <div class="output-group">
+            <label for="outputText">Hasil:</label>
+            <textarea id="outputText" readonly></textarea>
+        </div>
+        <div class="btn-group">
+            <button onclick="copyToClipboard()">Salin Semua</button>
+        </div>
+    </div>
+    
+    <script>
+        function generateOutput() {
+            const inputText = document.getElementById('inputText').value.trim();
+            const startNumber = parseInt(document.getElementById('numberStart').value, 10);
+            const endNumber = parseInt(document.getElementById('numberEnd').value, 10);
+            let outputText = '';
+            
+            if (inputText) {
+                // Pastikan startNumber tidak lebih besar dari endNumber
+                const actualStart = Math.max(startNumber, 1);
+                const actualEnd = Math.max(endNumber, actualStart);
+                
+                for (let i = actualStart; i <= actualEnd; i++) {
+                    outputText += `${i}${inputText}\n`;
+                }
+            }
+            
+            document.getElementById('outputText').value = outputText;
+        }
+
+        function copyToClipboard() {
+            const outputTextArea = document.getElementById('outputText');
+            outputTextArea.select();
+            document.execCommand('copy');
+            alert('Teks berhasil disalin ke clipboard!');
+        }
+    </script>
+</body>
+</html>
