@@ -70,6 +70,9 @@
         .copy-button:hover {
             background-color: #0056b3;
         }
+        .results-info {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -85,19 +88,28 @@
         
         <h2>Generated Combinations:</h2>
         <textarea id="outputWithoutNumbers" readonly></textarea>
+        
+        <div class="results-info">
+            <strong>Total Combinations:</strong> <span id="totalCount">0</span>
+        </div>
     </div>
 
     <script>
         function generateDotCombinations() {
-            const emailInput = document.getElementById('email').value;
+            const emailInput = document.getElementById('email').value.trim();
             const outputWithoutNumbers = document.getElementById('outputWithoutNumbers');
+            const totalCount = document.getElementById('totalCount');
             
-            if (!emailInput || !emailInput.includes('@') || !emailInput.endsWith('@gmail.com')) {
+            let fullEmail = emailInput;
+            
+            if (!fullEmail.includes('@')) {
+                fullEmail += '@gmail.com';
+            } else if (!fullEmail.endsWith('@gmail.com')) {
                 alert('Please enter a valid Gmail address.');
                 return;
             }
 
-            const [localPart, domain] = emailInput.split('@');
+            const [localPart, domain] = fullEmail.split('@');
             let results = new Set();
 
             // Generate all combinations with dots
@@ -121,6 +133,7 @@
             const formattedWithoutNumbers = Array.from(results).join('\n');
             
             outputWithoutNumbers.value = formattedWithoutNumbers;
+            totalCount.textContent = results.size; // Display total number of combinations
         }
 
         function copyToClipboard() {
