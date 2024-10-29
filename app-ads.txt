@@ -386,3 +386,8 @@ lijit.com, 483304, RESELLER, fafdf38b16bf6b2b
 media.net, 8cu12aq1y, RESELLER
 pubmatic.com, 164119, RESELLER, 5d62403b186f2ace
 sharethrough.com, k5wdgasp, RESELLER, d53b998a7bd4ecd2
+lijit.com, 511365, RESELLER, fafdf38b16bf6b2b
+improvedigital.com, 2464, RESELLER
+pubmatic.com, 165116, RESELLER, 5d62403b186f2ace
+video.unrulymedia.com, 436487936, RESELLER
+voisetech.com, 1066, RESELLER
