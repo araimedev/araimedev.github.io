@@ -391,3 +391,6 @@ improvedigital.com, 2464, RESELLER
 pubmatic.com, 165116, RESELLER, 5d62403b186f2ace
 video.unrulymedia.com, 436487936, RESELLER
 voisetech.com, 1066, RESELLER
+smartadserver.com, 4467, RESELLER
+pubmatic.com, 159668, RESELLER, 5d62403b186f2ace
+onetag.com, 5d1628750185ace, RESELLER
