@@ -1,3 +1,13 @@
+improvedigital.com, 2534, RESELLER
+pubmatic.com, 164798, RESELLER, 5d62403b186f2ace
+zmaticoo.com, 5135063, RESELLER
+lijit.com, 558045, RESELLER, fafdf38b16bf6b2b
+rubiconproject.com, 26360, RESELLER, 0bfd66d529a55807
+video.unrulymedia.com, 389957698, RESELLER
+copper6.com, 766114, RESELLER
+xandr.com, 16546, RESELLER
+pubmatic.com, 166078, RESELLER, 5d62403b186f2ace
+improvedigital.com, 2609, RESELLER
 contextweb.com, 562726, RESELLER, 89ff185a4c4e857c
 sharethrough.com, FTVCT81v, RESELLER
 axonix.com, 59107, RESELLER, bc385f2b4a87b721
