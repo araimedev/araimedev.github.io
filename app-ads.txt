@@ -1,3 +1,10 @@
+xandr.com, 17779, RESELLER
+themediagrid.com, NC7LXT, RESELLER, 35d5010d7789b49d
+outbrain.com, 0073fa86cff719c752763d2c3ee52c8f00, RESELLER
+appnexus.com, 17779, RESELLER
+pubmatic.com, 167130, RESELLER, 5d62403b186f2ace
+video.unrulymedia.com, 657436911, RESELLER
+indexexchange.com, 214183, RESELLER, 50b1c356f2c5c8fc
 opera.com, pub6843437470464, RESELLER, 55a0c5fd61378de3
 opera.com, pub7275292332480, RESELLER, 55a0c5fd61378de3
 loopme.com, 15629, RESELLER, 6c8d5f95897a5a3b
