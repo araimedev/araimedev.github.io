@@ -1,3 +1,15 @@
+loopme.com, 11524, RESELLER, 6c8d5f95897a5a3b
+openx.com, 543888036, RESELLER, 6a698e2ec38604c6
+sharethrough.com, 4024, RESELLER, d53b998a7bd4ecd2
+loopme.com, 15601, RESELLER, 6c8d5f95897a5a3b
+video.unrulymedia.com, 3890682751, RESELLER
+media.net, 8CU355VS4, RESELLER
+app-stock.com, 562114, RESELLER, ed8c126ea5971415
+pubmatic.com, 158903, RESELLER, 5d62403b186f2ace
+indexexchange.com, 192505, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 214429, RESELLER, 50b1c356f2c5c8fc
+smartadserver.com, 4024, RESELLER, 060d053dcf45cbf3
+anzu.io, 691e95644e633a6eee2567ee, RESELLER, 1c1b7acf4992136c
 xandr.com, 17779, RESELLER
 themediagrid.com, NC7LXT, RESELLER, 35d5010d7789b49d
 outbrain.com, 0073fa86cff719c752763d2c3ee52c8f00, RESELLER
