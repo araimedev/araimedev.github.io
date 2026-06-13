@@ -1,4 +1,18 @@
-
+rubiconproject.com, 27538, RESELLER, 0bfd66d529a55807
+adform.com, 3400, RESELLER, 9f5210a2f0999e32
+pubnative.net, 1017792, RESELLER, d641df8625486a7b
+onlinemediasolutions.com, 23120, RESELLER, b3868b187e4b6402
+smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3
+insticator.com, cadff748-965f-4393-a76e-a8f902512bad, RESELLER, b3511ffcafb23a32
+bluexad.ai, 1996418805747683328, RESELLER
+video.unrulymedia.com, 290726769, RESELLER
+e-planning.net, 6a7f877127485fdb, RESELLER, c1ba615865ed87b2
+video.unrulymedia.com, 905340553, RESELLER
+pubmatic.com, 166335, RESELLER, 5d62403b186f2ace
+ogury.com, 065d4ff5-a269-44be-9634-9d4d7af2dfc3, RESELLER
+media.net, 8CU675N41, RESELLER
+video.unrulymedia.com, 703273072, RESELLER
+pubmatic.com, 163117, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 17062, RESELLER, 0bfd66d529a55807
 triplelift.com, 95054, RESELLER, 6c33edb13117fd86
 themediagrid.com, GODNC4, RESELLER, 35d5010d7789b49d
