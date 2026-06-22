@@ -1,3 +1,6 @@
+openx.com, 563905670, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 165854, RESELLER, 5d62403b186f2ace
+triplelift.com, 14798, RESELLER, 6c33edb13117fd86
 rubiconproject.com, 27538, RESELLER, 0bfd66d529a55807
 adform.com, 3400, RESELLER, 9f5210a2f0999e32
 pubnative.net, 1017792, RESELLER, d641df8625486a7b
