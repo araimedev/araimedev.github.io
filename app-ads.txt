@@ -1,3 +1,4 @@
+https://araimedev.github.io/app-ads.txt
 appnexus.com, 17973, RESELLER, f5ab79cb980f11d1
 pubmatic.com, 165874, RESELLER, 5d62403b186f2ace
 loopme.com, 2896, RESELLER, 6c8d5f95897a5a3b
